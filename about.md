@@ -4,20 +4,32 @@ title: About Alex
 permalink: /about/
 ---
 
-Hi, I'm Alex, I'm a data scientist working at Nauto, a telematics and autonomous driving startup based in Palo Alto.  Before data science, I was a mathematician, a dish washer, a bicycle activist, an account manager, and a lot of other things.  I've been a competitive runner for 22 years, and I love my girlfriend Heidi, my cat Gizmo, and my family!
+Hi, I'm Alex, I'm an algorithms engineer working in autonomous vehicle engineering and IoT, based in Palo Alto.  Before algorithms and data science, I was a mathematician, a dish washer, a bicycle activist, an account manager, and a lot of other things.  I've been a competitive runner for 24 years, and I love my girlfriend Heidi, my cat Gizmo, and my family!
 
-## Data Science:
+## Algorithms:
 
-I'm just getting started in data science, and as such, I work to improve my technical skills every day.  I have a background in math (UCLA, PhD, 2008), data analysis, and account management, all of which aid me greatly in data science.  My career in data science took off when I attended [The Data Incubator](https://www.thedataincubator.com/){:target="_blank"}, and was then hired by Nauto to drive risk assessment of drivers and fleets.
+Currently I'm diving deeply into mapping and localization, specifically [simultaneous localization and mapping (SLAM)](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) for robotics, with a focus on applications for autonomous vehicles.  I'm studying both the foundational techniques for SLAM, such as [EKF SLAM](https://www.youtube.com/watch?v=XeWG5D71gC0) with known data correspondence, and cutting edge implementations of SLAM such as [ORB SLAM 2](https://github.com/raulmur/ORB_SLAM2).
 
-I'm pretty much exclusively a Python coder at this point, though I have had very limited exposure to Scala.  In a typical day, I'm working with the following Python libraries:
+Recent professional work in this area includes:
 
-- Pandas
-- Numpy
-- SciKit Learn
-- Plot.ly
+- Processing 9-axis IMU and GPS data at [Nauto](https://www.nauto.com/) to fuse these sensors, clean up the noise extract a strong vehicle dynamics signal.
+- Developing detectors for driving behaviors and events - crashes, hard maneuvers, etc - based on the vehicle dynamics data.
+- Managing a team that worked on the above projects, as well as developed 2nd order algorithms to interpret the significance of the resulting data, including estimating the riskiness of drivers based on the observed driving behavior.
+- And managing the roadmap and data collection for the above efforts.
 
-Apart from the technologies I work with, I do quite a bit of end-to-end data science including data collection and labeling, validating algorithms, building production level data science products in the cloud, and developing product scope and requirements in collaboration with other teams.
+Additionally, through the [Udacity Self Driving Car Nanodegree](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013), I've built projects recently in the following areas:
+
+- DNNs (Keras and TF) for image classification and behavioral cloning transfer learning;
+- camera calibration (OpenCV);
+- lane detection;
+- vehicle detection using patch descriptors (HOG) and SVM (scikit-learn)
+- Kalman Filters, Extended Kalman Filters and Unscented Kalman Filters for localization
+- localization via particle filters
+- PID controllers and MPC controllers
+
+I'm comfortable in Python and increasingly proficient in C++.
+
+I have a PhD in Mathematics from UCLA (2008), specifically Descriptive Set Theory (Mathematical Logic).  My dissertation was published in the Journal of Symbolic Logic as [A Metamathematical Condition Equivalent to the Existence of a Complete Left Invariant Metric for a Polish Group](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/metamathematical-condition-equivalent-to-the-existence-of-a-complete-left-invariant-metric-for-a-polish-group/9E7FB255D27EA29AF73E2DEE3120E978).
 
 ## Alex around the web
 
@@ -28,3 +40,9 @@ Apart from the technologies I work with, I do quite a bit of end-to-end data sci
 ## Contact me
 
 [alexcthompson@gmail.com](mailto:alexcthompson@gmail.com)
+
+## My face!
+
+Me and my dad, probably the only time you'll find us both in suits.
+
+![Me and my dad, probably the only time you'll find us both in suits. (Photo: Heidi Sickler)](images/alex_and_dad_20180916.png){:class="img-responsive"}
