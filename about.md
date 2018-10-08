@@ -8,16 +8,16 @@ Hi, I'm Alex, I'm an algorithms engineer working in autonomous vehicle engineeri
 
 ## Algorithms:
 
-Currently I'm diving deeply into mapping and localization, specifically [simultaneous localization and mapping (SLAM)](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) for robotics, with a focus on applications for autonomous vehicles.  I'm studying both the foundational techniques for SLAM, such as [EKF SLAM](https://www.youtube.com/watch?v=XeWG5D71gC0) with known data correspondence, and cutting edge implementations of SLAM such as [ORB SLAM 2](https://github.com/raulmur/ORB_SLAM2).
+Currently I'm diving deeply into mapping and localization, specifically [simultaneous localization and mapping (SLAM)](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping){:target="_blank"} for robotics, with a focus on applications for autonomous vehicles.  I'm studying both the foundational techniques for SLAM, such as [EKF SLAM](https://www.youtube.com/watch?v=XeWG5D71gC0){:target="_blank"} with known data correspondence, and cutting edge implementations of SLAM such as [ORB SLAM 2](https://github.com/raulmur/ORB_SLAM2){:target="_blank"}.
 
 Recent professional work in this area includes:
 
-- Processing 9-axis IMU and GPS data at [Nauto](https://www.nauto.com/) to fuse these sensors, clean up the noise extract a strong vehicle dynamics signal.
+- Processing 9-axis IMU and GPS data at [Nauto](https://www.nauto.com/){:target="_blank"} to fuse these sensors, clean up the noise extract a strong vehicle dynamics signal.
 - Developing detectors for driving behaviors and events - crashes, hard maneuvers, etc - based on the vehicle dynamics data.
 - Managing a team that worked on the above projects, as well as developed 2nd order algorithms to interpret the significance of the resulting data, including estimating the riskiness of drivers based on the observed driving behavior.
 - And managing the roadmap and data collection for the above efforts.
 
-Additionally, through the [Udacity Self Driving Car Nanodegree](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013), I've built projects recently in the following areas:
+Additionally, through the [Udacity Self Driving Car Nanodegree](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013){:target="_blank"}, I've built projects recently in the following areas:
 
 - DNNs (Keras and TF) for image classification and behavioral cloning transfer learning;
 - camera calibration (OpenCV);
@@ -29,13 +29,12 @@ Additionally, through the [Udacity Self Driving Car Nanodegree](https://www.udac
 
 I'm comfortable in Python and increasingly proficient in C++.
 
-I have a PhD in Mathematics from UCLA (2008), specifically Descriptive Set Theory (Mathematical Logic).  My dissertation was published in the Journal of Symbolic Logic as [A Metamathematical Condition Equivalent to the Existence of a Complete Left Invariant Metric for a Polish Group](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/metamathematical-condition-equivalent-to-the-existence-of-a-complete-left-invariant-metric-for-a-polish-group/9E7FB255D27EA29AF73E2DEE3120E978).
+I have a PhD in Mathematics from UCLA (2008), specifically Descriptive Set Theory (Mathematical Logic).  My dissertation was published in the Journal of Symbolic Logic as [A Metamathematical Condition Equivalent to the Existence of a Complete Left Invariant Metric for a Polish Group](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/metamathematical-condition-equivalent-to-the-existence-of-a-complete-left-invariant-metric-for-a-polish-group/9E7FB255D27EA29AF73E2DEE3120E978){:target="_blank"}.
 
 ## Alex around the web
 
 - [alexcthompson on GitHub](https://github.com/alexcthompson){:target="_blank"}
 - [alexcthompson on LinkedIn](https://www.linkedin.com/in/alexcthompson){:target="_blank"}
-- [alexcthompson on HackerRank](hackerrank.com/alexcthompson){:target="_blank"}
 
 ## Contact me
 
