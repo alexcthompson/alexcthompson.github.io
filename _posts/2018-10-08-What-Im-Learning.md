@@ -16,7 +16,7 @@ For ORB SLAM2, I've been reviewing the top level process flow, and also digging 
 
 ORB SLAM2, unlike EKF SLAM, is real production algorithm that can operate in large environments under real conditions, for example, here's a [video of ORB SLAM in action using the KITTI dataset](https://www.youtube.com/watch?v=j2ZNuBCr4SA){:target="_blank"}.  And here's [video of ORB SLAM2 working in indoor environments](https://www.youtube.com/watch?v=MUyNOEICrf8){:target="_blank"}.  This high level process diagram for ORB SLAM2, taken from the original paper, really highlights the complexity:
 
-![ORB SLAM2 process diagram](images/orb_slam_2_process.png){:class="img-responsive"}
+![ORB SLAM2 process diagram](/images/orb_slam_2_process.png){:class="img-responsive"}
 
 # ∆ between EKF SLAM and ORB SLAM2
 
