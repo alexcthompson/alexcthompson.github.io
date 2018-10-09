@@ -8,7 +8,11 @@ title: Google hit 2 million self-driving miles, and they're pushing for much mor
     <script data-plotly="alexcthompson:467"  src="https://plot.ly/embed.js" async></script>
 </div>
 
-Google cars have driven 2 million miles in self-driving mode (if you believe in projections.) And Google is making a huge push to drive more autonomous miles.  In August of last year, Google's cars drove nearly 100,000 miles (precisely, 93,023).  This August, they hit 169,935.  That's enough driving to wear out one Toyota a month, or two GM cars from the 80s ;)  Still, while that's a big jump, it is not that impressive when you realize that Google probably has to double autonomous mileage many times to prove out level 4 autonomy.
+Google cars have driven 2 million miles in self-driving mode (if you believe in projections.) And Google is making a huge push to drive more autonomous miles.
+
+<!--excerpt-->
+
+In August of last year, Google's cars drove nearly 100,000 miles (precisely, 93,023).  This August, they hit 169,935.  That's enough driving to wear out one Toyota a month, or two GM cars from the 80s ;)  Still, while that's a big jump, it is not that impressive when you realize that Google probably has to double autonomous mileage many times to prove out level 4 autonomy.
 
 <div>
     <a href="https://plot.ly/~alexcthompson/461/" target="_blank" title="Google&#39;s Self-Driving Project Mileage" style="display: block; text-align: center;"><img src="https://plot.ly/~alexcthompson/461.png" alt="Google&#39;s Self-Driving Project Mileage" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
