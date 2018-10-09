@@ -4,7 +4,7 @@ title: What I'm Learning&#58; EKF SLAM & ORB SLAM2
 mathjax: true
 ---
 
-I miss blogging, and I thought it would keep me focused to publish a short weekly post about what I'm learning, or what projects I'm working on, each week.
+I miss blogging, and I thought it would keep me focused to publish a short post about what I'm learning, or what projects I'm working on, each week.
 
 ![ORB SLAM2 in action](/images/orb_slam2_in_action.png){:class="img-responsive"}
 
