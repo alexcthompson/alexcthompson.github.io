@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EKF SLAM & ORB SLAM2 (What I'm Learning, 2018-10-08)
+title: What I'm Learning&#58; EKF SLAM & ORB SLAM2
 mathjax: true
 ---
 
