@@ -42,6 +42,6 @@ I have a PhD in Mathematics from UCLA (2008), specifically Descriptive Set Theor
 
 ## My face!
 
-Me and my dad, probably the only time you'll find us both in suits.
+Me and my dad, probably the only time you'll find us both in suits. (Photo: Heidi Sickler)
 
 ![Me and my dad, probably the only time you'll find us both in suits. (Photo: Heidi Sickler)](images/alex_and_dad_20180916.png){:class="img-responsive"}
