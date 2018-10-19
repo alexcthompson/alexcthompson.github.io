@@ -33,8 +33,8 @@ I have a PhD in Mathematics from UCLA (2008), specifically Descriptive Set Theor
 
 ## Alex around the web
 
-- [alexcthompson on GitHub](https://github.com/alexcthompson){:target="_blank"}
-- [alexcthompson on LinkedIn](https://www.linkedin.com/in/alexcthompson){:target="_blank"}
+- [Alex Thompson on GitHub](https://github.com/alexcthompson){:target="_blank"}
+- [Alex Thompson on LinkedIn](https://www.linkedin.com/in/alexcthompson){:target="_blank"}
 
 ## Contact me
 
@@ -44,4 +44,4 @@ I have a PhD in Mathematics from UCLA (2008), specifically Descriptive Set Theor
 
 Me and my dad, probably the only time you'll find us both in suits. (Photo: Heidi Sickler)
 
-![Me and my dad, probably the only time you'll find us both in suits. (Photo: Heidi Sickler)](images/alex_and_dad_20180916.png){:class="img-responsive"}
+![Me and my dad, probably the only time you'll find us both in suits. (Photo: Heidi Sickler)](/images/alex_and_dad_20180916.png){:class="img-responsive"}
