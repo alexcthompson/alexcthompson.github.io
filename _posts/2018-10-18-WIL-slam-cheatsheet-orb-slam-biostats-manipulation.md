@@ -41,7 +41,7 @@ By the way, here's Tareen and Saleem's summary of feature-detector-descriptor pe
 > 
 > The sequence of algorithms for computational efficiency of feature-detection-description per feature-point is:
 > 
-> $$\begin{align*} \mathbf{ORB}& > \mathbf{ORB}(\pmb{1000}) > \mathbf{BRISK} > \mathbf{BRISK}(\pmb{1000}) > \mathbf{SURF}(\pmb{64}\mathbf{D})\\ & > \mathbf{SURF}(\pmb{12}\mathbf{SD}) > \mathbf{AKAZE} > \mathbf{SIFT} > \mathbf{KAZE} \end{align*}$$
+> $$\begin{align*} \mathbf{ORB}& > \mathbf{ORB}(\pmb{1000}) > \mathbf{BRISK} > \mathbf{BRISK}(\pmb{1000}) > \mathbf{SURF}(\pmb{64}\mathbf{D})\\ & > \mathbf{SURF}(\pmb{128}\mathbf{D}) > \mathbf{AKAZE} > \mathbf{SIFT} > \mathbf{KAZE} \end{align*}$$
 > 
 > The order of efficient feature-matching per feature-point is:
 > 
