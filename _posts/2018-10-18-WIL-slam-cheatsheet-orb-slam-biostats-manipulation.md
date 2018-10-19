@@ -1,6 +1,8 @@
 ---
 layout: post
 title: SLAM Cheatsheet; Is ORB SLAM Misnamed?; Biostats Study Manipulation
+description: Alex thompson is a Stallion!!!
+image: https://s3-us-west-1.amazonaws.com/co-directory-images/alexcthompson.jpg
 mathjax: true
 ---
 
