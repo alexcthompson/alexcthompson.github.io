@@ -81,14 +81,22 @@ Features in Nonlinear Scale Spaces](http://www.bmva.org/bmvc/2013/Papers/paper00
 - **ORB**: stands for Oriented FAST and BRIEF.  This is a computationally efficient feature-detector-descriptor that is approximately invariant under rotation and scaling, and resilient to camera auto-gain, auto-exposure, and illumination changes.  Here's an example of ORB feature matching showing a Valentine's card (left) feature matching with a smaller version, right, drawn via [Hian-Kun Tenn (YouTube)](https://www.youtube.com/watch?v=j2fLqKvbgpM):
 
    ![ORB feature matching in action, Hian-Kun Tenn on YouTube](/images/orb_feature_matching_ex.png){:class="img-responsive"}
+
+   ORB features were originally described in [E. Rublee, V. Rabaud, K. Konolige, and G. Bradski, “ORB: an efficient alternative to SIFT or SURF,” in IEEE International Conference on Computer Vision (ICCV), Barcelona, Spain, November 2011, pp. 2564–2571.](http://www.willowgarage.com/sites/default/files/orb_final.pdf)  They are [implemented in OpenCV.](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_feature2d/py_orb/py_orb.html)
 - **Prediction Update (or Prediction Step)**: the first of two steps to recursively update a Bayes filter.  When the filter receives a new measurement, it first executes a prediction update, guessing where the state space should land given the current information, including recent controls.  It then incorporates the new information provided by the measurement in the *measurement update*.  The prediction step takes belief from timestep $t-1$ (often a mean and covariance matrix, $(\mu_{t-1}, \Sigma_{t-1})$), and updates the belief according to the motion model.  Alternatively, just think of it as the calculation of $ \overline{bel}(x_t) $ from $ u_t $ and $ bel(x_{t-1}) $.
+- **Principal Point**: the principal point is the point on the image plane onto which the perspective center is projected.  As well, it is the point from which the focal length is measured (Source: [PCI Geomatics](http://www.pcigeomatics.com/geomatica-help/concepts/orthoengine_c/Chapter_45.html)).  In the context of computer vision, it will be the image coordinates $(c_x, c_y)$ of the principal point $\mathbf{P}$ in the diagram (Source: [Princeton COS 429: Camera Geometry](http://www.cs.princeton.edu/courses/archive/fall13/cos429/lectures/11-epipolar)) below:
+
+   ![Camera coordinate diagram](/images/camera_coordinate_system.png){:class="img-responsive"}
+
+   So, in the case of 640x480 image, if the principal point were the dead center of the image, then $(c_x, c_y) = (319.5, 439.5)$.
+- **Projection**: refers to projecting the elements of a 3D scene onto a camera plane, based on the known camera pose and optics.  For instance, for an image plane at the origin, with focal length $(f_x, f_y)$ and principal point $(c_x, c_y), the projection function is:
+
+   $$\pi\left( \begin{bmatrix} X \\ Y \\ Z \end{bmatrix} \right) = \begin{bmatrix} f_x \frac{X}{Z} + c_x \\ f_y \frac{Y}{Z} + c_y \end{bmatrix}$$
 - **SLAM**: Simultaneous Localization and Mapping, a process by which a robot, or robots, simultaneously (1) build a map of the environment and (2) track their position in with respect to that map.  Typically this is done in real time to assist the robot in understanding, interacting with, or navigating the environment.
 
 
 ## To be added:
 
-- **Principal Point**:
-- **Projection**:
 - **RGB-D**:
 - **Reprojection Error**:
 - **Rolling Shutter**:
