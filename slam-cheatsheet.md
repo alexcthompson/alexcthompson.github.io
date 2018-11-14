@@ -97,6 +97,7 @@ Features in Nonlinear Scale Spaces](http://www.bmva.org/bmvc/2013/Papers/paper00
 
 ## To be added:
 
+- **Image Registration**:
 - **RGB-D**:
 - **Reprojection Error**:
 - **Rolling Shutter**:
@@ -120,6 +121,7 @@ Features in Nonlinear Scale Spaces](http://www.bmva.org/bmvc/2013/Papers/paper00
 - **Visual Odometry**:
 - **Relocalization**:
 - **Particle Filter**:
+- **Point cloud registration**:
 - **ORB SLAM**:
 - **ORB SLAM2**:
 - **EKF SLAM**:
