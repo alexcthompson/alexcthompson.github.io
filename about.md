@@ -4,7 +4,7 @@ title: About Alex
 permalink: /about/
 ---
 
-Hi, I'm Alex, I'm an algorithms engineer working in autonomous vehicle engineering and IoT, based in Palo Alto.  Before algorithms and data science, I was a mathematician, a dish washer, a bicycle activist, an account manager, and a lot of other things.  I've been a competitive runner for 24 years, and I love my girlfriend Heidi, my cat Gizmo, and my family!
+Hi, I'm Alex, I'm an algorithms engineer working in autonomous vehicle engineering, based in Palo Alto.  Before algorithms and data science, I was a mathematician, a dish washer, a bicycle activist, an account manager, and a lot of other things.  I've been a competitive runner for 24 years, and I love my cats Gizmo and Runty Cheetah, and my family!
 
 ## Algorithms:
 
